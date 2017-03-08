@@ -69,10 +69,11 @@ const actions = {
   },
 
   // fetch-weather bot executes
-  ['fetch-weather'](sessionId, context, cb) {
+  ['aboutUs'](sessionId, context, cb) {
     // Here should go the api call, e.g.:
     // context.forecast = apiCall(context.loc)
-    context.forecast = 'sunny';
+    context.forecast = '我們TEDxTKU是在地、學生自發組織的活動，常駐在淡江大學，講者在其中會得到和TED活動一樣的舞台，去發表自己的想法，讓想法傳播給更多人，一起探索生活中的不平凡。\n \
+    在淡水這個有著歷史傳統並結合現代設計的城市裡，我們找尋生活周遭值得分享的好點子。 這是主管給我的稿子，BOT只知道這麼多，可以問我其他東西~例如"你是BOT?"';
     cb(context);
   },
 };
