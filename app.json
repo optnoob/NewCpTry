@@ -1,9 +1,8 @@
 {
-  "name": "Wit-Facebook-bot",
-  "description": "Wit-Facebook Messenger Bot Demo.",
-  "repository": "https://github.com/hunkim/Wit-Facebook",
-  "logo": "https://avatars2.githubusercontent.com/u/4723433",
-  "keywords": ["node", "express", "github", "wit", "bot", "fcaebook"],
+  "name": "emu",
+  "description": "Wit-Facebook Messenger Bot Demo.thz for sources",
+
+
   "env": {
     "WIT_TOKEN": {
       "description": "Server Access Token from wit.ai (see your wit app settings).",
